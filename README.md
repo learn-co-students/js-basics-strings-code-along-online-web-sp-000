@@ -1,6 +1,6 @@
-# Strings Lab Introduction
+lea# Strings Lab Introduction
 
-## Problem Statement 
+## Problem Statement
 In this lab introduction, we're going to take a deep dive into strings in JavaScript by walking you through the process of running tests in the Learn environment, and submitting a lab. We're also going to familiarize ourselves with the structure and flow of the JavaScript labs in the Learn.co curriculum.
 
 For this lab, you've just been onboarded to the dev team working on Flatbook, the world's premier Flatiron School-based social network. At the moment, the view that our users see upon logging in is pretty generic. We'd like to improve the user experience by adding some custom greeting capabilities.
@@ -122,7 +122,7 @@ const welcomeMessage = 'Welcome to Flatbook, ' + currentUser;
 
 If we run the test suite with our updated code, we'll see both the second and third tests passing! However, before we move on, let's talk about interpolation.
 
-## Interpolate Variables and Other JavaScript Expressions Inside Template Literals 
+## Interpolate Variables and Other JavaScript Expressions Inside Template Literals
 String interpolation lets us dynamically insert values in the middle of a string. Before ES2015, we could accomplish this with concatenation:
 ```js
 const myString = 'concatenat';
